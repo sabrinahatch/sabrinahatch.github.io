@@ -53,6 +53,10 @@
     background-color: black;
 }
 
+.navbar{
+background-color: white;
+}
+
 /* spacing on all sections */
 #about, #services, #portfolio, #contact {
     margin-top: 4rem;
