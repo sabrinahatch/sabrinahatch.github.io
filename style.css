@@ -65,3 +65,59 @@ background-color: white;
 #contact {
     padding-bottom: 4rem;
 }
+
+
+/************************************/
+/*      Contact Section Style       */
+/************************************/
+
+#contact .contact-overview {
+    margin-bottom: 2em;
+    max-width: 30em;
+    width: 100%;
+  }
+  
+  #contact .contact-overview .heading {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: var(--black-color);
+  }
+  
+  #contact .contact-overview .text {
+    font-size: 1em;
+    line-height: 1.6em;
+    color: var(--black-color);
+    margin-top: 0.8em;
+  }
+  
+  #contact .contact-details {
+    max-width: 30em;
+    width: 100%;
+  }
+  
+  #contact .contact-details .text {
+    font-size: 1em;
+    line-height: 1.6em;
+    color: var(--black-color);
+  }
+  
+  #contact .contact-details .text:first-child{
+    margin-right: 3em;
+    margin-bottom: 2em;
+  }
+  
+  #contact .contact-details a.social-item:not(:first-child) {
+    margin-left: 0.5em;
+  }
+  
+  #contact .contact-details a.social-item {
+    font-size: 1.4em;
+    text-decoration: none;
+    color: var(--hot-pink-color);
+  }
+  
+  #contact .contact-details a.social-item:hover {
+    color: var(--bright-orange-color);
+  }
+  
+  
